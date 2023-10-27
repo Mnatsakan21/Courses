@@ -1,0 +1,19 @@
+.filters-container{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #243745;
+    width: 280px;
+    height: 800px;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 20px;
+}
+hr{
+     border-color:  #d6c6c6;
+     width: 80%;
+     margin: 20px auto;
+
+}
+hr:nth-of-type(2){
+    margin-bottom: 50px;
+}

@@ -1,0 +1,100 @@
+section{
+    width: 800px;
+    display: inline-block;
+    
+}
+svg{
+    pointer-events: none;
+}
+.courses-container{
+    height: 800px;
+}
+.course-container{
+    background-color: #182e3c;
+    border-radius: 25px;
+    width: 250px;
+    display: inline-block;
+    margin: 20px 0 0 15px;
+    img{
+        width:100%;
+        border-radius: 25px 25px 0 0;
+    }
+    >div{
+        margin-top: 25px;
+        padding-inline: 15px;
+        span{
+            color: white;
+            font-size: 13px;
+        }
+        
+        div{
+            margin-top: 15px;
+            span{
+                margin-right: 10px;
+            }
+            svg{
+                vertical-align: middle;
+            }
+        }
+        .title{
+            h4,span{
+                color:#fdc332;
+            }
+            span{
+                background-color: #364f5b;
+                border:1px solid #fdc332;
+                padding: 3px 8px;
+                border-radius: 8px;
+                margin-left: 10px;
+            }
+            p{
+                margin: 13px 0 25px;
+                font-size: 13px;
+                height: 32px;
+                overflow: hidden;
+                color: white;
+            }
+        }
+        .date{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            span{
+                color:#276b9d;
+                font-size: 15px;
+             }
+             span:last-of-type{
+                color: #fdc332;
+                font-size: 20px;
+                text-align: end;
+                width: 40px;
+                line-height: 15px;
+                span{
+                    font-size: 13px;
+                    color:white;
+                }
+             }
+        }
+    }
+}
+
+.bought{
+    display: flex;
+    justify-content: space-between;
+    >span{
+        background-color: #364f5b;
+        padding: 3px;
+        border-radius: 8px;
+    }
+    >svg{
+        color:#fdc332;
+    }
+}
+
+nav{
+    margin: 15px auto 0;
+    width: max-content;
+    ul button{
+        color: white !important;
+    }
+}
